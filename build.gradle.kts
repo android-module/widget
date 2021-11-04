@@ -6,11 +6,14 @@ plugins {
 }
 
 ext{
-    set("myLibraryVersion", "1.0.1")
-    set("myBintrayName", "widget")
+    set("myGitUrl", "https://github.com/android-module/widget.git")
+    set("myLibraryVersion", "1.0.0")
     set("myArtifactId", "widget")
-    set("myLibraryName", "widget for android base develop")
+    set("myLibraryName", "widget")
     set("myLibraryDescription", "widget for android base develop")
+    set("mySiteUrl", "https://github.com/android-module/widget")
+    set("myLicenseName", "The Apache License, Version 2.0")
+    set("myLicenseUrl", "http://www.apache.org/licenses/LICENSE-2.0.txt")
 }
 
 
@@ -62,4 +65,7 @@ dependencies {
 }
 
 //apply(from = "https://gitee.com/caldrem/gradle-maven-kotlin-dsl/raw/master/bintray-with-maven-publish.gradle")
-//apply(from="https://raw.githubusercontent.com/caldremch/gradle-maven-kotlin-dsl/master/bintray-with-maven-publish.gradle")
+//afterEvaluate {
+//    apply(from="../gradle-maven-kotlin-dsl/mavencentral-with-maven-publish.gradle.kts")
+//}
+apply(from="../gradle-maven-kotlin-dsl/mavencentral-with-maven-publish.gradle")
