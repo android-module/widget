@@ -62,8 +62,4 @@ dependencies {
     implementation(Deps.viewbinding)
 }
 
-//apply(from = "https://gitee.com/caldrem/gradle-maven-kotlin-dsl/raw/master/bintray-with-maven-publish.gradle")
-//afterEvaluate {
-//    apply(from="../gradle-maven-kotlin-dsl/mavencentral-with-maven-publish.gradle.kts")
-//}
 apply(from="../gradle-maven-kotlin-dsl/mavencentral-with-maven-publish.gradle")
