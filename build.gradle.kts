@@ -12,8 +12,6 @@ ext{
     set("myLibraryName", "widget")
     set("myLibraryDescription", "widget for android base develop")
     set("mySiteUrl", "https://github.com/android-module/widget")
-    set("myLicenseName", "The Apache License, Version 2.0")
-    set("myLicenseUrl", "http://www.apache.org/licenses/LICENSE-2.0.txt")
 }
 
 
