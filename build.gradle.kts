@@ -47,19 +47,19 @@ android {
 }
 
 dependencies {
-    implementation(Deps.kotlin_stdlib)
-    implementation(Deps.appcompat)
-    implementation(Deps.ktx)
-    implementation(Deps.constraintlayout)
-    implementation(Deps.recyclerview)
-    api(Deps.banner)
-    implementation(Deps.BaseRecyclerViewAdapterHelper)
-    api(Deps.refresh)
-    api(Deps.refresh_header_classics)
-    api(Deps.refresh_footer_classics)
-    api(Deps.refresh_header_falsify)
-    implementation(Deps.MagicIndicator)
-    implementation(Deps.viewbinding)
+     implementation(libs.kotlin.stdlib.jdk8)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.kotlin.ktx)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.recyclerview)
+    api(libs.banner)
+    implementation(libs.baseRecyclerViewAdapterHelper)
+    api(libs.refresh)
+    api(libs.refresh.headerClassics)
+    api(libs.refresh.headerFalsify)
+    api(libs.refresh.footerClassics)
+    implementation(libs.magicIndicator)
+    implementation(libs.viewbinding)
 }
 
 apply(from="../gradle-maven-kotlin-dsl/mavencentral-with-maven-publish.gradle")
